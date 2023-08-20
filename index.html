@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBerth's Sciencey Stuff</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href = "./thoughts.html">Ramblings </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./images/airglowheader.jpg">
+            <div class="captext">First airglow</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./images/rainbowairglow.jfif">
+            <div class="captext">Rainbow airglow</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./images/waveyairglow.jpg">
+            <div class="captext">Wavey airglow</div>
+          </div>
+          
+        </div>
+        <div class = "text">
+          <p>
+          Here are some words on the left
+          </p>
+        </div>
+        
+
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+      </section>
+      <section id="about">
+        <div class="Container">
+          <h1>About Me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, similique?</p>
+          <ul>
+            <li>Btech Qualified</li>
+            <li>Software Engineer</li>
+            <li>GATE AIR 01</li>
+          </ul>
+        </div>
+      </section>
+      
+      <section id="contact">
+        <div class="Container">
+          <h1>Contact me</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, laudantium.</p>
+          <ul>
+            <li>Email ID</li>
+            <li>Insta ID</li>
+            <li>Facebook ID</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+    
+
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+      </script>
+  </body>
+</html>
