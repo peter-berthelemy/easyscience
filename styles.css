@@ -35,9 +35,9 @@
     section{
     height: 100vh;
     border: 1px solid grey;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     }
     
     .Container{
@@ -86,11 +86,12 @@
     justify-content: center;*/
     float: right;
     width: 50%;
+    height: 50%;
     margin: 0px 10px 15px 20px;;
   }
 
 .slideshow-container img{
-    object-fit: contain;
+    object-fit: cover;
     /*max-width: 100%;
     max-height: 100%;*/
 }
@@ -115,6 +116,10 @@
     top: 0;
   }
   
+  .dotContainer{
+    text-align: center;
+    clear: float;
+  }
   /* The dots/bullets/indicators */
   .dot {
     height: 15px;
