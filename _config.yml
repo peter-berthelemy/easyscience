@@ -18,7 +18,7 @@ title: Peter's Easy Science
 email:
 description: Some content
 baseurl: /easyscience
-url: https://peter-berthelemy.github.io"
+url: https://peter-berthelemy.github.io
 
 # Build settings
 markdown: kramdown
