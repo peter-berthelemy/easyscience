@@ -17,7 +17,7 @@ lang: en-UK
 title: Peter's Easy Science
 email:
 description: Some content
-baseurl: /easyscience
+baseurl: /easyscience/
 url: https://peter-berthelemy.github.io
 
 # Build settings
