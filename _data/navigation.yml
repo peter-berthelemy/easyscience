@@ -1,11 +1,11 @@
-docs_list_title: background
+docs_list_title: Background
 docs:
 
 - title: Airglow
-  url: {{ site.baseurl}}background/airglow.html
+  url: {{ site.baseurl }}background/airglow.html
 
 - title: Gravity Waves
-  url: {{ site.baseurl}}background/gravitywaves.html
+  url: {{ site.baseurl }}background/gravitywaves.html
 
 - title: The Atmosphere
-  url: {{ site.baseurl}}background/theatmosphere.html
+  url: {{ site.baseurl }}background/theatmosphere.html
