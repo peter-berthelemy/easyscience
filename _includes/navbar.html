@@ -1,6 +1,20 @@
 <header id="header">
     <h1><a href="{{ site.baseurl }}index.html">Peter's Easy Science</a></h1>
     <nav class="links">
+
+        {% for item in site.data.navigation.navi %}
+        <div class="dropdown">
+            <button class="dropbtn"><a href="">{{ item.title }}</a></button>
+            <div class="dropdown-content">
+                {% for entry in item.subfolderitems %}
+                <a href="{{ entry.url }}">{{ entry.page }}</a>
+                <br />
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <!--
         <div class="dropdown">
             <button class="dropbtn"><a href="{{ site.baseurl }}background/background.html">Background</a></button>
             <div class="dropdown-content">
@@ -65,9 +79,8 @@
             </div>
         </div>
             
-            <!-- <li><a href="#">Adipiscing</a></li> -->
+             <li><a href="#">Adipiscing</a></li> -->
         
-    </nav>
     <nav class="main">
         <ul>
             <li class="search">

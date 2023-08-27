@@ -1,26 +1,51 @@
-docs_list_title: Background
-background:
-  - title: Airglow
+navi:
+  - title: Background
     subfolderitems:
-      - page: Thing 1
-        url: /thing1.html
-      - page: Thing 2
-        url: /thing2.html
-      - page: Thing 3
-        url: /thing3.html
-  - title: Gravity Waves
+      - page: Airglow
+        url: {{ site.baseurl }}background/airglowBig/introduction.html
+        subsubfolderitems:
+        - page: Introduction
+          url: {{ site.baseurl }}background/airglowBig/introduction.html
+        - page: Chemistry
+          url: {{ site.baseurl }}background/airglowBig/chemistry.html
+      - page: Gravity Waves
+        url: {{ site.baseurl }}background/gravitywavesBig/introduction.html
+        subsubfolderitems:
+        - page: Introduction
+          url: {{ site.baseurl }}background/gravitywavesBig/introduction.html
+        - page: Sources
+          url: {{ site.baseurl }}background/gravitywavesBig/sources.html
+      - page: The Atmosphere
+        url: {{ site.baseurl }}background/theatmosphereBig/introduction.html
+        subsubfolderitems:
+        - page: Introduction
+          url: {{ site.baseurl }}background/theatmosphereBig/introduction.html
+        - page: Dynamics
+          url: {{ site.baseurl }}background/theatmosphereBig/dynamics.html
+        - page: Layers
+          url: {{ site.baseurl }}background/theatmosphereBig/layers.html
+  - title: Methods
     subfolderitems:
-      - page: Piece 1
-        url: /piece1.html
-      - page: Piece 2
-        url: /piece2.html
-      - page: Piece 3
-        url: /piece3.html
-  - title: The Atmosphere
+      - page: Binning
+        url: {{ site.baseurl }}methods/binning.html
+      - page: Fourier Transform
+        url: {{ site.baseurl }}methods/fourier.html
+      - page: Image Analysis
+        url: {{ site.baseurl }}methods/imageanal.html
+      - page: S-Tranform
+        url: {{ site.baseurl }}methods/strans.html
+  - title: Instruments
     subfolderitems:
-      - page: Widget 1
-        url: /widget1.html
-      - page: Widget 2
-        url: /widget2.html
-      - page: Widget 3
-        url: /widget3.html
+      - page: Airglow Imagers
+        url: {{ site.baseurl }}instruments/airglowimagers.html
+      - page: Aqua-AIRS
+        url: {{ site.baseurl }}instruments/aquaairs.html
+  - title: In Progress
+    subfolderitems:
+      - page: Airglow Mask
+        url: {{ site.baseurl }}inprogress/airglowmask.html
+      - page: AIRS Mask
+        url: {{ site.baseurl }}inprogress/airsmask.html
+      - page: SIOS
+        url: {{ site.baseurl }}inprogress/sios.html
+  - title: Completed 
