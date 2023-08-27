@@ -1,6 +1,7 @@
 docs_list_title: Background
-docs:
+background:
   - title: Airglow
+    url: {{ site.baseurl }}background/airglow
     subfolderitems:
       - page: Thing 1
         url: /thing1.html

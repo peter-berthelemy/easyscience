@@ -19,8 +19,8 @@
 
                         <!-- Links -->
 
-						{% for item in site.data.navigation.docs %}
-						<h3><a href = "{{ item.url }}">{{ item.title}}</a></h3>
+						{% for item in site.data.navigation.{{ page.name }} %}
+						<h3><a href = "{{ item.url }}">{{ item.title }}</a></h3>
 						  <ul>
 							{% for entry in item.subfolderitems %}
 							  <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
