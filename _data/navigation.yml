@@ -3,54 +3,54 @@ navi:
     url: background/background
     subfolderitems:
       - page: Airglow
-        url: background/airglowBig/introduction.html
+        url: background/airglowBig/introduction
         subsubfolderitems:
         - page: Introduction
-          url: background/airglowBig/introduction.html
+          url: background/airglowBig/introduction
         - page: Chemistry
-          url: background/airglowBig/chemistry.html
+          url: background/airglowBig/chemistry
       - page: Gravity Waves
-        url: background/gravitywavesBig/introduction.html
+        url: background/gravitywavesBig/introduction
         subsubfolderitems:
         - page: Introduction
-          url: background/gravitywavesBig/introduction.html
+          url: background/gravitywavesBig/introduction
         - page: Sources
-          url: background/gravitywavesBig/sources.html
+          url: background/gravitywavesBig/sources
       - page: The Atmosphere
-        url: background/theatmosphereBig/introduction.html
+        url: background/theatmosphereBig/introduction
         subsubfolderitems:
         - page: Introduction
-          url: background/theatmosphereBig/introduction.html
+          url: background/theatmosphereBig/introduction
         - page: Dynamics
-          url: background/theatmosphereBig/dynamics.html
+          url: background/theatmosphereBig/dynamics
         - page: Layers
-          url: background/theatmosphereBig/layers.html
+          url: background/theatmosphereBig/layers
   - title: Methods
-    url: methods/methods.html
+    url: methods/methods
     subfolderitems:
       - page: Binning
-        url: methods/binning.html
+        url: methods/binning
       - page: Fourier Transform
-        url: methods/fourier.html
+        url: methods/fourier
       - page: Image Analysis
-        url: methods/imageanal.html
+        url: methods/imageanal
       - page: S-Tranform
-        url: methods/strans.html
+        url: methods/strans
   - title: Instruments
-    url: instruments/instruments.html
+    url: instruments/instruments
     subfolderitems:
       - page: Airglow Imagers
-        url: instruments/airglowimagers.html
+        url: instruments/airglowimagers
       - page: Aqua-AIRS
-        url: instruments/aquaairs.html
+        url: instruments/aquaairs
   - title: In Progress
-    url: inprogress/inprogress.html
+    url: inprogress/inprogress
     subfolderitems:
       - page: Airglow Mask
-        url: inprogress/airglowmask.html
+        url: inprogress/airglowmask
       - page: AIRS Mask
-        url: inprogress/airsmask.html
+        url: inprogress/airsmask
       - page: SIOS
-        url: inprogress/sios.html
+        url: inprogress/sios
   - title: Completed 
-    url: completed/completed.html
+    url: completed/completed
