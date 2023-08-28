@@ -1,51 +1,56 @@
 navi:
   - title: Background
+    url: background/background.html
     subfolderitems:
       - page: Airglow
-        url: {{ site.baseurl }}background/airglowBig/introduction.html
+        url: background/airglowBig/introduction.html
         subsubfolderitems:
         - page: Introduction
-          url: {{ site.baseurl }}background/airglowBig/introduction.html
+          url: background/airglowBig/introduction.html
         - page: Chemistry
-          url: {{ site.baseurl }}background/airglowBig/chemistry.html
+          url: background/airglowBig/chemistry.html
       - page: Gravity Waves
-        url: {{ site.baseurl }}background/gravitywavesBig/introduction.html
+        url: background/gravitywavesBig/introduction.html
         subsubfolderitems:
         - page: Introduction
-          url: {{ site.baseurl }}background/gravitywavesBig/introduction.html
+          url: background/gravitywavesBig/introduction.html
         - page: Sources
-          url: {{ site.baseurl }}background/gravitywavesBig/sources.html
+          url: background/gravitywavesBig/sources.html
       - page: The Atmosphere
-        url: {{ site.baseurl }}background/theatmosphereBig/introduction.html
+        url: background/theatmosphereBig/introduction.html
         subsubfolderitems:
         - page: Introduction
-          url: {{ site.baseurl }}background/theatmosphereBig/introduction.html
+          url: background/theatmosphereBig/introduction.html
         - page: Dynamics
-          url: {{ site.baseurl }}background/theatmosphereBig/dynamics.html
+          url: background/theatmosphereBig/dynamics.html
         - page: Layers
-          url: {{ site.baseurl }}background/theatmosphereBig/layers.html
+          url: background/theatmosphereBig/layers.html
   - title: Methods
+    url: methods/methods.html
     subfolderitems:
       - page: Binning
-        url: {{ site.baseurl }}methods/binning.html
+        url: methods/binning.html
       - page: Fourier Transform
-        url: {{ site.baseurl }}methods/fourier.html
+        url: methods/fourier.html
       - page: Image Analysis
-        url: {{ site.baseurl }}methods/imageanal.html
+        url: methods/imageanal.html
       - page: S-Tranform
-        url: {{ site.baseurl }}methods/strans.html
+        url: methods/strans.html
   - title: Instruments
+    url: instruments/instruments.html
     subfolderitems:
       - page: Airglow Imagers
-        url: {{ site.baseurl }}instruments/airglowimagers.html
+        url: instruments/airglowimagers.html
       - page: Aqua-AIRS
-        url: {{ site.baseurl }}instruments/aquaairs.html
+        url: instruments/aquaairs.html
   - title: In Progress
+    url: inprogress/inprogress.html
     subfolderitems:
       - page: Airglow Mask
-        url: {{ site.baseurl }}inprogress/airglowmask.html
+        url: inprogress/airglowmask.html
       - page: AIRS Mask
-        url: {{ site.baseurl }}inprogress/airsmask.html
+        url: inprogress/airsmask.html
       - page: SIOS
-        url: {{ site.baseurl }}inprogress/sios.html
+        url: inprogress/sios.html
   - title: Completed 
+    url: completed/completed.html
