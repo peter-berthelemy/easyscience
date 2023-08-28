@@ -1,6 +1,6 @@
 navi:
   - title: Background
-    url: background/background.html
+    url: background/background
     subfolderitems:
       - page: Airglow
         url: background/airglowBig/introduction.html
