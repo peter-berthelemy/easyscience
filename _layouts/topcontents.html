@@ -16,10 +16,10 @@
 
 				<!-- Main -->
 					<div id="main">
-						<p> some text</p>
+						
                         <!-- Links -->
 						
-						{% for item in site.data.navigation.navi[page.sidebar] %}
+						{% for item in site.data.navigation.navi %}
 						<h3>{{ item.title }}</h3>
 							{% if item.subfolderitems[0] %}
 							<ul>
@@ -37,7 +37,7 @@
 							{% endif %}
 						{% endfor %}
 					
-						<p> Something </p>
+						
 <!--
 						{% for item in site.data.navigation.{{ page.name }} %}
 						<h3>{{ item.title }}</h3>
