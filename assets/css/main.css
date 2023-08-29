@@ -38,6 +38,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* Grid for Intros */
+
+.grid-container {
+	display: grid;
+  }
+
+
 /* Dropdown Button */
 
 .dropdown-submenu {
