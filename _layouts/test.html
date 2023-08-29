@@ -50,6 +50,17 @@
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
+
+                        <article class="post">
+                            <header>
+                                <div class="title">
+                                    <h2><a href="#">{{ page.title }}</a></h2>
+                                    <p>{{ page.subtitle }}</p>
+                                </div>
+                            </header>
+                            <span class="image featured"><img src="{{ site.baseurl }}images/{{ page.image }}" alt="{{ page.imagealt }}" /></span>
+                            {{ content }}
+                        </article>
                     </div>
         </div>
                 
